@@ -1,0 +1,29 @@
+Sebutkan dan jelaskan jenis-jenis method
+
+1. Constructor. 
+Merupakan method khusus yang dipanggil saat object dibuat.
+Tugas utamanya adalah untuk melakukan inisialisasi atau memberikan nilai awal pada atribut-atribut objek tersebut sebelum digunakan.
+Ciri utama dari constructor adalah namanya harus sama persis dengan nama class-nya dan sama sekali tidak memiliki tipe kembalian
+
+2. Method Mutator (Setter)
+Sering disebut sebagai setter, ini adalah method yang dikhususkan untuk mengisi, mengubah, atau memperbarui nilai dari sebuah atribut di dalam class.
+Tujuannya adalah untuk menjaga keamanan data, sehingga atribut tidak diubah secara sembarangan dari luar program.
+Biasanya, method ini selalu diawali dengan awalan kata set.
+
+3. Method Accessor (Getter)
+Kebalikan dari setter, method ini bekerja secara spesifik untuk mengambil, membaca, atau melihat nilai dari sebuah atribut tanpa mengubah isinya.
+Melalui method ini, bagian luar program bisa mendapatkan informasi mengenai data yang disimpan oleh objek. 
+Penamaannya umumnya diawali dengan awalan kata get.
+
+4. Void Method
+Merupakan jenis method yang hanya bekerja dengan menjalankan serangkaian instruksi tanpa memberikan atau mengembalikan nilai.
+Method ini wajib menggunakan kata kunci void pada saat dideklarasikan.
+
+5. Return Method 
+kebalikan dari void method dimana method wajib untuk mengembalikan nilai.
+Data yang dikembalikan bisa berupa tipe data primitif seperti int, double, boolean, atau tipe data kompleks seperti String, Array, atau bahkan objek dari class lain. 
+Method ini harus mendeklarasikan tipe data kembalian dan menggunakan kata kunci return dengan nilai yang ingin dikirimkan.
+
+6. Static Method
+Static method adalah fungsi yang sifatnya terikat langsung pada class itu sendiri. 
+Method ini bisa langsung dipanggil dan digunakan secara praktis tanpa  melakukan instansiasi terlebih dahulu.

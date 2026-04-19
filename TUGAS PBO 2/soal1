@@ -1,0 +1,16 @@
+Jelaskan apa yang dimaksud class dan object
+
+CLASS
+class adalah kerangka utama yang mendefinisikan struktur suatu objek. 
+Class berfungsi sebagai blueprint atau template yang digunakan untuk membuat objek-objek yang memiliki atribut (data) dan metode (fungsi) tertentu. 
+class dapat mendefinisikan variabel untuk menyimpan data dan fungsi untuk melakukan operasi pada data tersebut.
+sebuah Class tidak langsung memakan ruang memori komputer untuk menyimpan data, karena posisinya murni hanya sebagai rancangan.
+contohnya adalah class mahasiswa yang memiliki atribut seperti nama, umur, dan jurusan, serta metode seperti belajar() dan mengikuti perkuliahan().
+
+OBJECT
+object adalah realisasi atau implementasi dari sebuah class.
+Object merupakan entitas yang memiliki atribut dan metode yang didefinisikan dalam class.
+proses pembuatan object dari class disebut instansiasi, di mana kita membuat instance atau objek dari class tersebut.
+Setiap objek memiliki nilai atribut yang unik, meskipun mereka berasal dari class yang sama.
+contohnya adalah objek mahasiswa1 yang merupakan instance dari class mahasiswa, dengan atribut nama "Indah", umur 20, dan jurusan "Informatika". 
+Objek mahasiswa1 dapat menggunakan metode belajar() dan mengikuti perkuliahan() yang didefinisikan dalam class mahasiswa.
